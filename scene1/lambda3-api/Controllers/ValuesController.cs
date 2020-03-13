@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace lambda3.api.Controllers
+namespace Lambda3Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -20,7 +20,7 @@ namespace lambda3.api.Controllers
         public async Task<int> Get()
         {
             var rng = new Random();
-            return rng.Next(-100, 100);
+            return rng.Next(1000, 9999);
         }
     }
 }

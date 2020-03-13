@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "lambda3.api": {
+    "lambda3-api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
